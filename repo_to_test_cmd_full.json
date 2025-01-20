@@ -1,0 +1,1021 @@
+{
+  "astropy/astropy": [
+    { "3.0": "pytest -rA" },
+    { "3.1": "pytest -rA" },
+    { "3.2": "pytest -rA" },
+    { "4.1": "pytest -rA" },
+    { "4.2": "pytest -rA" },
+    { "4.3": "pytest -rA" },
+    { "5.0": "pytest -rA" },
+    { "5.1": "pytest -rA" },
+    { "5.2": "pytest -rA" },
+    { "v5.3": "pytest -rA" },
+    { "0.1": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "0.2": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "0.3": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "0.4": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "1.1": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "1.2": "pytest -rA -vv -o console_output_style=classic --tb=no" },
+    { "1.3": "pytest -rA -vv -o console_output_style=classic --tb=no" }
+  ],
+  "dbt-labs/dbt-core": [
+    { "0.13": "" },
+    { "0.14": "" },
+    { "0.15": "" },
+    { "0.16": "" },
+    { "0.17": "" },
+    { "0.18": "" },
+    { "0.19": "" },
+    { "0.20": "" },
+    { "0.21": "" },
+    { "1.0": "" },
+    { "1.1": "" },
+    { "1.2": "" },
+    { "1.3": "" },
+    { "1.4": "" },
+    { "1.5": "" },
+    { "1.6": "" },
+    { "1.7": "" }
+  ],
+  "django/django": [
+    {
+      "1.7": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "1.8": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    { "1.9": "./tests/runtests.py --verbosity 2" },
+    {
+      "1.10": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "1.11": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "2.0": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "2.1": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "2.2": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "1.4": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "1.5": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "1.6": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "3.0": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "3.1": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "3.2": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "4.0": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "4.1": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "4.2": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "5.0": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "5.1": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    },
+    {
+      "5.2": "./tests/runtests.py --verbosity 2 --settings=test_sqlite --parallel 1"
+    }
+  ],
+  "matplotlib/matplotlib": [
+    { "3.5": "pytest -rA" },
+    { "3.6": "pytest -rA" },
+    { "3.7": "pytest -rA" },
+    { "3.8": "pytest -rA" },
+    { "3.9": "pytest -rA" },
+    { "3.1": "pytest -rA" },
+    { "3.2": "pytest -rA" },
+    { "3.3": "pytest -rA" },
+    { "3.4": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "2.0": "pytest -rA" },
+    { "2.1": "pytest -rA" },
+    { "2.2": "pytest -rA" },
+    { "1.0": "pytest -rA" },
+    { "1.1": "pytest -rA" },
+    { "1.2": "pytest -rA" },
+    { "1.3": "pytest -rA" },
+    { "1.4": "pytest -rA" },
+    { "1.5": "pytest -rA" }
+  ],
+  "marshmallow-code/marshmallow": [
+    { "2.18": "pytest -rA" },
+    { "2.19": "pytest -rA" },
+    { "2.20": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "3.1": "pytest -rA" },
+    { "3.10": "pytest -rA" },
+    { "3.11": "pytest -rA" },
+    { "3.12": "pytest -rA" },
+    { "3.13": "pytest -rA" },
+    { "3.15": "pytest -rA" },
+    { "3.16": "pytest -rA" },
+    { "3.19": "pytest -rA" },
+    { "3.2": "pytest -rA" },
+    { "3.4": "pytest -rA" },
+    { "3.8": "pytest -rA" },
+    { "3.9": "pytest -rA" }
+  ],
+  "mwaskom/seaborn": [
+    { "0.11": "pytest --no-header -rA" },
+    { "0.12": "pytest --no-header -rA" },
+    { "0.13": "pytest --no-header -rA" },
+    { "0.14": "pytest --no-header -rA" }
+  ],
+  "pallets/flask": [
+    { "2.0": "pytest -rA" },
+    { "2.1": "pytest -rA" },
+    { "2.2": "pytest -rA" },
+    { "2.3": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "3.1": "pytest -rA" }
+  ],
+  "psf/requests": [
+    { "0.7": "pytest -rA" },
+    { "0.8": "pytest -rA" },
+    { "0.9": "pytest -rA" },
+    { "0.11": "pytest -rA" },
+    { "0.13": "pytest -rA" },
+    { "0.14": "pytest -rA" },
+    { "1.1": "pytest -rA" },
+    { "1.2": "pytest -rA" },
+    { "2.0": "pytest -rA" },
+    { "2.2": "pytest -rA" },
+    { "2.3": "pytest -rA" },
+    { "2.4": "pytest -rA" },
+    { "2.5": "pytest -rA" },
+    { "2.7": "pytest -rA" },
+    { "2.8": "pytest -rA" },
+    { "2.9": "pytest -rA" },
+    { "2.10": "pytest -rA" },
+    { "2.11": "pytest -rA" },
+    { "2.12": "pytest -rA" },
+    { "2.17": "pytest -rA" },
+    { "2.18": "pytest -rA" },
+    { "2.19": "pytest -rA" },
+    { "2.22": "pytest -rA" },
+    { "2.26": "pytest -rA" },
+    { "2.25": "pytest -rA" },
+    { "2.27": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "2.31": "pytest -rA" }
+  ],
+  "pvlib/pvlib-python": [
+    { "0.1": "pytest -rA" },
+    { "0.2": "pytest -rA" },
+    { "0.3": "pytest -rA" },
+    { "0.4": "pytest -rA" },
+    { "0.5": "pytest -rA" },
+    { "0.6": "pytest -rA" },
+    { "0.7": "pytest -rA" },
+    { "0.8": "pytest -rA" },
+    { "0.9": "pytest -rA" }
+  ],
+  "pydata/xarray": [
+    { "0.12": "pytest -rA" },
+    { "0.18": "pytest -rA" },
+    { "0.19": "pytest -rA" },
+    { "0.20": "pytest -rA" },
+    { "2022.03": "pytest -rA" },
+    { "2022.06": "pytest -rA" },
+    { "2022.09": "pytest -rA" },
+    { "2024.05": "pytest -rA" },
+    { "2023.07": "pytest -rA" }
+  ],
+  "pydicom/pydicom": [
+    { "1.0": "pytest -rA" },
+    { "1.1": "pytest -rA" },
+    { "1.2": "pytest -rA" },
+    { "1.3": "pytest -rA" },
+    { "1.4": "pytest -rA" },
+    { "2.0": "pytest -rA" },
+    { "2.1": "pytest -rA" },
+    { "2.2": "pytest -rA" },
+    { "2.3": "pytest -rA" },
+    { "2.4": "pytest -rA" },
+    { "3.0": "pytest -rA" }
+  ],
+  "pylint-dev/astroid": [
+    { "2.10": "pytest -rA" },
+    { "2.12": "pytest -rA" },
+    { "2.13": "pytest -rA" },
+    { "2.14": "pytest -rA" },
+    { "2.15": "pytest -rA" },
+    { "2.16": "pytest -rA" },
+    { "2.5": "pytest -rA" },
+    { "2.6": "pytest -rA" },
+    { "2.7": "pytest -rA" },
+    { "2.8": "pytest -rA" },
+    { "2.9": "pytest -rA" },
+    { "3.0": "pytest -rA" }
+  ],
+  "pylint-dev/pylint": [
+    { "2.10": "pytest -rA" },
+    { "2.11": "pytest -rA" },
+    { "2.13": "pytest -rA" },
+    { "2.14": "pytest -rA" },
+    { "2.15": "pytest -rA" },
+    { "2.16": "pytest -rA" },
+    { "2.17": "pytest -rA" },
+    { "2.8": "pytest -rA" },
+    { "2.9": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "3.1": "pytest -rA" },
+    { "3.2": "pytest -rA" },
+    { "3.3": "pytest -rA" }
+  ],
+  "pytest-dev/pytest": [
+    { "4.4": "pytest -rA" },
+    { "4.5": "pytest -rA" },
+    { "4.6": "pytest -rA" },
+    { "5.0": "pytest -rA" },
+    { "5.1": "pytest -rA" },
+    { "5.2": "pytest -rA" },
+    { "5.3": "pytest -rA" },
+    { "5.4": "pytest -rA" },
+    { "6.0": "pytest -rA" },
+    { "6.2": "pytest -rA" },
+    { "6.3": "pytest -rA" },
+    { "7.0": "pytest -rA" },
+    { "7.1": "pytest -rA" },
+    { "7.2": "pytest -rA" },
+    { "7.4": "pytest -rA" },
+    { "8.0": "pytest -rA" },
+    { "8.1": "pytest -rA" },
+    { "8.2": "pytest -rA" },
+    { "8.3": "pytest -rA" },
+    { "8.4": "pytest -rA" }
+  ],
+  "pyvista/pyvista": [
+    { "0.20": "pytest -rA" },
+    { "0.21": "pytest -rA" },
+    { "0.22": "pytest -rA" },
+    { "0.23": "pytest -rA" },
+    { "0.24": "pytest -rA" },
+    { "0.25": "pytest -rA" },
+    { "0.26": "pytest -rA" },
+    { "0.27": "pytest -rA" },
+    { "0.28": "pytest -rA" },
+    { "0.29": "pytest -rA" },
+    { "0.30": "pytest -rA" },
+    { "0.31": "pytest -rA" },
+    { "0.32": "pytest -rA" },
+    { "0.33": "pytest -rA" },
+    { "0.34": "pytest -rA" },
+    { "0.35": "pytest -rA" },
+    { "0.36": "pytest -rA" },
+    { "0.37": "pytest -rA" },
+    { "0.38": "pytest -rA" },
+    { "0.39": "pytest -rA" },
+    { "0.40": "pytest -rA" },
+    { "0.41": "pytest -rA" },
+    { "0.42": "pytest -rA" },
+    { "0.43": "pytest -rA" }
+  ],
+  "scikit-learn/scikit-learn": [
+    { "0.20": "pytest -rA" },
+    { "0.21": "pytest -rA" },
+    { "0.22": "pytest -rA" },
+    { "1.3": "pytest -rA" },
+    { "1.4": "pytest -rA" },
+    { "1.5": "pytest -rA" },
+    { "1.6": "pytest -rA" }
+  ],
+  "sphinx-doc/sphinx": [
+    { "1.5": "tox --current-env -epy39 -v --" },
+    { "1.6": "tox --current-env -epy39 -v --" },
+    { "1.7": "tox --current-env -epy39 -v --" },
+    { "1.8": "tox --current-env -epy39 -v --" },
+    { "2.0": "tox --current-env -epy39 -v --" },
+    { "2.1": "tox --current-env -epy39 -v --" },
+    { "2.2": "tox --current-env -epy39 -v --" },
+    { "2.3": "tox --current-env -epy39 -v --" },
+    { "2.4": "tox --current-env -epy39 -v --" },
+    { "3.0": "tox --current-env -epy39 -v --" },
+    { "3.1": "tox --current-env -epy39 -v --" },
+    { "3.2": "tox --current-env -epy39 -v --" },
+    { "3.3": "tox --current-env -epy39 -v --" },
+    { "3.4": "tox --current-env -epy39 -v --" },
+    { "3.5": "tox --current-env -epy39 -v --" },
+    { "4.0": "tox --current-env -epy39 -v --" },
+    { "4.1": "tox --current-env -epy39 -v --" },
+    { "4.2": "tox --current-env -epy39 -v --" },
+    { "4.3": "tox --current-env -epy39 -v --" },
+    { "4.4": "tox --current-env -epy39 -v --" },
+    { "4.5": "tox --current-env -epy39 -v --" },
+    { "5.0": "tox --current-env -epy39 -v --" },
+    { "5.1": "tox --current-env -epy39 -v --" },
+    { "5.2": "tox --current-env -epy39 -v --" },
+    { "5.3": "tox --current-env -epy39 -v --" },
+    { "6.0": "tox --current-env -epy39 -v --" },
+    { "6.2": "tox --current-env -epy39 -v --" },
+    { "7.0": "tox --current-env -epy39 -v --" },
+    { "7.1": "tox --current-env -epy39 -v --" },
+    { "7.2": "tox --current-env -epy39 -v --" },
+    { "7.3": "tox --current-env -epy39 -v --" },
+    { "7.4": "tox --current-env -epy39 -v --" },
+    { "8.0": "tox --current-env -epy39 -v --" }
+  ],
+  "sqlfluff/sqlfluff": [
+    { "0.10": "pytest -rA" },
+    { "0.11": "pytest -rA" },
+    { "0.12": "pytest -rA" },
+    { "0.13": "pytest -rA" },
+    { "0.4": "pytest -rA" },
+    { "0.5": "pytest -rA" },
+    { "0.6": "pytest -rA" },
+    { "0.8": "pytest -rA" },
+    { "0.9": "pytest -rA" },
+    { "1.0": "pytest -rA" },
+    { "1.1": "pytest -rA" },
+    { "1.2": "pytest -rA" },
+    { "1.3": "pytest -rA" },
+    { "1.4": "pytest -rA" },
+    { "2.0": "pytest -rA" },
+    { "2.1": "pytest -rA" },
+    { "2.2": "pytest -rA" }
+  ],
+  "swe-bench/humaneval": [{ "1.0": "python" }],
+  "sympy/sympy": [
+    {
+      "0.7": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.0": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.1": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.10": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.11": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.12": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.2": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.4": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.5": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.6": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.7": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.8": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.9": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.13": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    },
+    {
+      "1.14": "PYTHONWARNINGS='ignore::UserWarning,ignore::SyntaxWarning' bin/test -C --verbose"
+    }
+  ],
+  "python/mypy": [
+    { "1.7": "pytest -rA -k" },
+    { "1.8": "pytest -rA -k" },
+    { "1.9": "pytest -rA -k" },
+    { "1.10": "pytest -rA -k" },
+    { "1.11": "pytest -rA -k" },
+    { "1.0": "pytest -n0 -rA -k" },
+    { "1.1": "pytest -n0 -rA -k" },
+    { "1.2": "pytest -n0 -rA -k" },
+    { "1.3": "pytest -n0 -rA -k" },
+    { "1.4": "pytest -n0 -rA -k" },
+    { "1.5": "pytest -n0 -rA -k" },
+    { "1.6": "pytest -n0 -rA -k" },
+    { "0.990": "pytest -n0 -rA -k" },
+    { "0.980": "pytest -n0 -rA -k" },
+    { "0.970": "pytest -n0 -rA -k" },
+    { "0.960": "pytest -n0 -rA -k" },
+    { "0.950": "pytest -n0 -rA -k" },
+    { "0.940": "pytest -n0 -rA -k" },
+    { "0.920": "pytest -n0 -rA -k" },
+    { "0.910": "pytest -n0 -rA -k" },
+    { "0.820": "pytest -n0 -rA -k" },
+    { "0.810": "pytest -n0 -rA -k" },
+    { "0.800": "pytest -n0 -rA -k" }
+  ],
+  "getmoto/moto": [
+    { "0.4": "pytest -n0 -rA" },
+    { "1.0": "pytest -n0 -rA" },
+    { "1.2": "pytest -n0 -rA" },
+    { "1.3": "pytest -n0 -rA" },
+    { "2.0": "pytest -n0 -rA" },
+    { "2.1": "pytest -n0 -rA" },
+    { "2.2": "pytest -n0 -rA" },
+    { "2.3": "pytest -n0 -rA" },
+    { "3.0": "pytest -n0 -rA" },
+    { "3.1": "pytest -n0 -rA" },
+    { "4.0": "pytest -n0 -rA" },
+    { "4.1": "pytest -n0 -rA" },
+    { "4.2": "pytest -n0 -rA" },
+    { "5.0": "pytest -n0 -rA" }
+  ],
+  "conan-io/conan": [
+    { "1.33": "pytest -n0 -rA" },
+    { "1.34": "pytest -n0 -rA" },
+    { "1.36": "pytest -n0 -rA" },
+    { "2.0": "pytest -n0 -rA" },
+    { "1.35": "pytest -n0 -rA" },
+    { "1.37": "pytest -n0 -rA" },
+    { "1.46": "pytest -n0 -rA" },
+    { "1.38": "pytest -n0 -rA" },
+    { "1.39": "pytest -n0 -rA" },
+    { "1.40": "pytest -n0 -rA" },
+    { "1.41": "pytest -n0 -rA" },
+    { "1.42": "pytest -n0 -rA" },
+    { "1.45": "pytest -n0 -rA" },
+    { "1.43": "pytest -n0 -rA" },
+    { "1.44": "pytest -n0 -rA" },
+    { "1.47": "pytest -n0 -rA" },
+    { "1.48": "pytest -n0 -rA" },
+    { "1.49": "pytest -n0 -rA" },
+    { "1.50": "pytest -n0 -rA" },
+    { "1.51": "pytest -n0 -rA" },
+    { "1.52": "pytest -n0 -rA" },
+    { "1.53": "pytest -n0 -rA" },
+    { "1.55": "pytest -n0 -rA" },
+    { "1.54": "pytest -n0 -rA" },
+    { "1.57": "pytest -n0 -rA" },
+    { "1.58": "pytest -n0 -rA" },
+    { "1.59": "pytest -n0 -rA" },
+    { "2.1": "pytest -n0 -rA" },
+    { "1.60": "pytest -n0 -rA" },
+    { "1.61": "pytest -n0 -rA" },
+    { "1.62": "pytest -n0 -rA" },
+    { "2.2": "pytest -n0 -rA" },
+    { "2.3": "pytest -n0 -rA" },
+    { "2.4": "pytest -n0 -rA" }
+  ],
+  "dask/dask": [
+    { "2.11": "pytest -n0 -rA  --color=no" },
+    { "2.12": "pytest -n0 -rA  --color=no" },
+    { "2.13": "pytest -n0 -rA  --color=no" },
+    { "2.14": "pytest -n0 -rA  --color=no" },
+    { "2.15": "pytest -n0 -rA  --color=no" },
+    { "2.16": "pytest -n0 -rA  --color=no" },
+    { "2.17": "pytest -n0 -rA  --color=no" },
+    { "2.18": "pytest -n0 -rA  --color=no" },
+    { "2.19": "pytest -n0 -rA  --color=no" },
+    { "2.21": "pytest -n0 -rA  --color=no" },
+    { "2.22": "pytest -n0 -rA  --color=no" },
+    { "2.23": "pytest -n0 -rA  --color=no" },
+    { "2.25": "pytest -n0 -rA  --color=no" },
+    { "2.26": "pytest -n0 -rA  --color=no" },
+    { "2.27": "pytest -n0 -rA  --color=no" },
+    { "2.28": "pytest -n0 -rA  --color=no" },
+    { "2.29": "pytest -n0 -rA  --color=no" },
+    { "2.30": "pytest -n0 -rA  --color=no" },
+    { "2020.12": "pytest -n0 -rA  --color=no" },
+    { "2021.01": "pytest -n0 -rA  --color=no" },
+    { "2021.02": "pytest -n0 -rA  --color=no" },
+    { "2021.03": "pytest -n0 -rA  --color=no" },
+    { "2021.04": "pytest -n0 -rA  --color=no" },
+    { "2021.05": "pytest -n0 -rA  --color=no" },
+    { "2021.06": "pytest -n0 -rA  --color=no" },
+    { "2021.07": "pytest -n0 -rA  --color=no" },
+    { "2021.08": "pytest -n0 -rA  --color=no" },
+    { "2021.09": "pytest -n0 -rA  --color=no" },
+    { "2021.10": "pytest -n0 -rA  --color=no" },
+    { "2021.11": "pytest -n0 -rA  --color=no" },
+    { "2021.12": "pytest -n0 -rA  --color=no" },
+    { "2022.01": "pytest -n0 -rA  --color=no" },
+    { "2022.02": "pytest -n0 -rA  --color=no" },
+    { "2022.03": "pytest -n0 -rA  --color=no" },
+    { "2022.04": "pytest -n0 -rA  --color=no" },
+    { "2022.05": "pytest -n0 -rA  --color=no" },
+    { "2022.6": "pytest -n0 -rA  --color=no" },
+    { "2022.7": "pytest -n0 -rA  --color=no" },
+    { "2022.8": "pytest -n0 -rA  --color=no" },
+    { "2022.9": "pytest -n0 -rA  --color=no" },
+    { "2022.10": "pytest -n0 -rA  --color=no" },
+    { "2022.11": "pytest -n0 -rA  --color=no" },
+    { "2022.12": "pytest -n0 -rA  --color=no" },
+    { "2023.1": "pytest -n0 -rA  --color=no" },
+    { "2023.2": "pytest -n0 -rA  --color=no" },
+    { "2023.3": "pytest -n0 -rA  --color=no" },
+    { "2023.4": "pytest -n0 -rA  --color=no" },
+    { "2023.5": "pytest -n0 -rA  --color=no" },
+    { "2023.6": "pytest -n0 -rA  --color=no" },
+    { "2023.7": "pytest -n0 -rA  --color=no" },
+    { "2023.8": "pytest -n0 -rA  --color=no" },
+    { "2023.9": "pytest -n0 -rA  --color=no" },
+    { "2023.10": "pytest -n0 -rA  --color=no" },
+    { "2023.11": "pytest -n0 -rA  --color=no" },
+    { "2023.12": "pytest -n0 -rA  --color=no" },
+    { "2024.1": "pytest -n0 -rA  --color=no" },
+    { "2024.2": "pytest -n0 -rA  --color=no" },
+    { "2024.3": "pytest -n0 -rA  --color=no" },
+    { "2024.4": "pytest -n0 -rA  --color=no" },
+    { "2024.5": "pytest -n0 -rA  --color=no" }
+  ],
+  "project-monai/monai": [
+    { "0.1": "pytest -rA " },
+    { "0.2": "pytest -rA " },
+    { "0.3": "pytest -rA " },
+    { "0.4": "pytest -rA " },
+    { "0.5": "pytest -rA " },
+    { "0.6": "pytest -rA " },
+    { "0.7": "pytest -rA " },
+    { "0.8": "pytest -rA " },
+    { "0.9": "pytest -rA " },
+    { "0.11": "pytest -rA " },
+    { "0.105": "pytest -rA " },
+    { "1.0": "pytest -rA " },
+    { "1.1": "pytest -rA " },
+    { "1.2": "pytest -rA " },
+    { "1.3": "pytest -rA " }
+  ],
+  "iterative/dvc": [
+    { "0.1": "pytest -rA" },
+    { "0.8": "pytest -rA" },
+    { "0.9": "pytest -rA" },
+    { "0.12": "pytest -rA" },
+    { "0.13": "pytest -rA" },
+    { "0.14": "pytest -rA" },
+    { "0.15": "pytest -rA" },
+    { "0.16": "pytest -rA" },
+    { "0.17": "pytest -rA" },
+    { "0.18": "pytest -rA" },
+    { "0.19": "pytest -rA" },
+    { "0.20": "pytest -rA" },
+    { "0.21": "pytest -rA" },
+    { "0.22": "pytest -rA" },
+    { "0.23": "pytest -rA" },
+    { "0.24": "pytest -rA" },
+    { "0.27": "pytest -rA" },
+    { "0.28": "pytest -rA" },
+    { "0.29": "pytest -rA" },
+    { "0.30": "pytest -rA" },
+    { "0.31": "pytest -rA" },
+    { "0.32": "pytest -rA" },
+    { "0.33": "pytest -rA" },
+    { "0.34": "pytest -rA" },
+    { "0.35": "pytest -rA" },
+    { "0.40": "pytest -rA" },
+    { "0.41": "pytest -rA" },
+    { "0.50": "pytest -rA" },
+    { "0.51": "pytest -rA" },
+    { "0.52": "pytest -rA" },
+    { "0.53": "pytest -rA" },
+    { "0.54": "pytest -rA" },
+    { "0.55": "pytest -rA" },
+    { "0.56": "pytest -rA" },
+    { "0.57": "pytest -rA" },
+    { "0.58": "pytest -rA" },
+    { "0.59": "pytest -rA" },
+    { "0.60": "pytest -rA" },
+    { "0.61": "pytest -rA" },
+    { "0.62": "pytest -rA" },
+    { "0.63": "pytest -rA" },
+    { "0.65": "pytest -rA" },
+    { "0.66": "pytest -rA" },
+    { "0.68": "pytest -rA" },
+    { "0.69": "pytest -rA" },
+    { "0.70": "pytest -rA" },
+    { "0.71": "pytest -rA" },
+    { "0.74": "pytest -rA" },
+    { "0.75": "pytest -rA" },
+    { "0.76": "pytest -rA" },
+    { "0.77": "pytest -rA" },
+    { "0.78": "pytest -rA" },
+    { "0.80": "pytest -rA" },
+    { "0.81": "pytest -rA" },
+    { "0.82": "pytest -rA" },
+    { "0.83": "pytest -rA" },
+    { "0.84": "pytest -rA" },
+    { "0.85": "pytest -rA" },
+    { "0.86": "pytest -rA" },
+    { "0.87": "pytest -rA" },
+    { "0.88": "pytest -rA" },
+    { "0.89": "pytest -rA" },
+    { "0.90": "pytest -rA" },
+    { "0.91": "pytest -rA" },
+    { "0.92": "pytest -rA" },
+    { "0.93": "pytest -rA" },
+    { "1.0": "pytest -rA" },
+    { "1.1": "pytest -rA" },
+    { "1.2": "pytest -rA" },
+    { "1.3": "pytest -rA" },
+    { "1.4": "pytest -rA" },
+    { "1.5": "pytest -rA" },
+    { "1.6": "pytest -rA" },
+    { "1.7": "pytest -rA" },
+    { "1.8": "pytest -rA" },
+    { "1.9": "pytest -rA" },
+    { "1.10": "pytest -rA" },
+    { "1.11": "pytest -rA" },
+    { "2.0": "pytest -rA" },
+    { "2.1": "pytest -rA" },
+    { "2.2": "pytest -rA" },
+    { "2.3": "pytest -rA" },
+    { "2.4": "pytest -rA" },
+    { "2.5": "pytest -rA" },
+    { "2.6": "pytest -rA" },
+    { "2.7": "pytest -rA" },
+    { "2.8": "pytest -rA" },
+    { "2.9": "pytest -rA" },
+    { "2.10": "pytest -rA" },
+    { "2.11": "pytest -rA" },
+    { "2.12": "pytest -rA" },
+    { "2.13": "pytest -rA" },
+    { "2.15": "pytest -rA" },
+    { "2.17": "pytest -rA" },
+    { "2.19": "pytest -rA" },
+    { "2.20": "pytest -rA" },
+    { "2.21": "pytest -rA" },
+    { "2.22": "pytest -rA" },
+    { "2.23": "pytest -rA" },
+    { "2.24": "pytest -rA" },
+    { "2.27": "pytest -rA" },
+    { "2.28": "pytest -rA" },
+    { "2.30": "pytest -rA" },
+    { "2.33": "pytest -rA" },
+    { "2.34": "pytest -rA" },
+    { "2.35": "pytest -rA" },
+    { "2.38": "pytest -rA" },
+    { "2.41": "pytest -rA" },
+    { "2.43": "pytest -rA" },
+    { "2.44": "pytest -rA" },
+    { "2.45": "pytest -rA" },
+    { "2.46": "pytest -rA" },
+    { "2.48": "pytest -rA" },
+    { "2.50": "pytest -rA" },
+    { "2.51": "pytest -rA" },
+    { "2.52": "pytest -rA" },
+    { "2.54": "pytest -rA" },
+    { "2.55": "pytest -rA" },
+    { "2.56": "pytest -rA" },
+    { "2.57": "pytest -rA" },
+    { "2.58": "pytest -rA" },
+    { "3.0": "pytest -rA" },
+    { "3.1": "pytest -rA" },
+    { "3.2": "pytest -rA" },
+    { "3.3": "pytest -rA" },
+    { "3.4": "pytest -rA" },
+    { "3.5": "pytest -rA" },
+    { "3.6": "pytest -rA" },
+    { "3.10": "pytest -rA" },
+    { "3.11": "pytest -rA" },
+    { "3.12": "pytest -rA" },
+    { "3.13": "pytest -rA" },
+    { "3.14": "pytest -rA" },
+    { "3.15": "pytest -rA" },
+    { "3.17": "pytest -rA" },
+    { "3.19": "pytest -rA" },
+    { "3.23": "pytest -rA" },
+    { "3.24": "pytest -rA" },
+    { "3.28": "pytest -rA" },
+    { "3.29": "pytest -rA" },
+    { "3.36": "pytest -rA" },
+    { "3.37": "pytest -rA" },
+    { "3.38": "pytest -rA" },
+    { "3.43": "pytest -rA" },
+    { "3.47": "pytest -rA" },
+    { "3.48": "pytest -rA" },
+    { "3.49": "pytest -rA" }
+  ],
+  "bokeh/bokeh": [
+    { "3.0": "pytest -rA -n0" },
+    { "3.3": "pytest -rA -n0" },
+    { "3.4": "pytest -rA -n0" },
+    { "3.5": "pytest -rA -n0" },
+    { "2.0": "pytest -rA -n0" },
+    { "2.1": "pytest -rA -n0" },
+    { "2.3": "pytest -rA -n0" },
+    { "2.4": "pytest -rA -n0" },
+    { "0.4": "pytest -rA -n0" },
+    { "0.5": "pytest -rA -n0" },
+    { "0.6": "pytest -rA -n0" },
+    { "0.7": "pytest -rA -n0" },
+    { "0.8": "pytest -rA -n0" },
+    { "0.9": "pytest -rA -n0" },
+    { "0.10": "pytest -rA -n0" },
+    { "0.11": "pytest -rA -n0" },
+    { "0.12": "pytest -rA -n0" },
+    { "0.13": "pytest -rA -n0" },
+    { "0.1181316818": "pytest -rA -n0" },
+    { "1.0": "pytest -rA -n0" },
+    { "1.1": "pytest -rA -n0" },
+    { "1.2": "pytest -rA -n0" },
+    { "1.3": "pytest -rA -n0" },
+    { "1.4": "pytest -rA -n0" }
+  ],
+  "modin-project/modin": [
+    { "0.1": "pytest -n0 -rA" },
+    { "0.2": "pytest -n0 -rA" },
+    { "0.3": "pytest -n0 -rA" },
+    { "0.4": "pytest -n0 -rA" },
+    { "0.6": "pytest -n0 -rA" },
+    { "0.8": "pytest -n0 -rA" },
+    { "0.9": "pytest -n0 -rA" },
+    { "0.10": "pytest -n0 -rA" },
+    { "0.11": "pytest -n0 -rA" },
+    { "0.12": "pytest -n0 -rA" },
+    { "0.13": "pytest -n0 -rA" },
+    { "0.14": "pytest -n0 -rA" },
+    { "0.15": "pytest -n0 -rA" },
+    { "0.16": "pytest -n0 -rA" },
+    { "0.17": "pytest -n0 -rA" },
+    { "0.18": "pytest -n0 -rA" },
+    { "0.19": "pytest -n0 -rA" },
+    { "0.20": "pytest -n0 -rA" },
+    { "0.21": "pytest -n0 -rA" },
+    { "0.22": "pytest -n0 -rA" },
+    { "0.23": "pytest -n0 -rA" },
+    { "0.24": "pytest -n0 -rA" },
+    { "0.25": "pytest -n0 -rA" },
+    { "0.26": "pytest -n0 -rA" },
+    { "0.27": "pytest -n0 -rA" },
+    { "0.28": "pytest -n0 -rA" },
+    { "0.29": "pytest -n0 -rA" },
+    { "0.30": "pytest -n0 -rA" }
+  ],
+  "spyder-ide/spyder": [],
+  "hypothesisworks/hypothesis": [
+    { "3.55": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.61": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.60": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.59": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.63": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.66": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.67": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.68": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.69": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.70": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.1": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.5": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.24": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.6": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.9": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.8": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.10": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.12": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.15": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.20": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.23": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.36": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.32": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.33": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.38": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.41": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.42": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.43": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.47": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.1": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.4": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.6": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.8": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.14": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.13": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.18": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.21": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.24": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.28": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.29": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.73": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.71": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.75": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.79": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.82": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.85": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.88": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.0": "pytest -n0 -rA --tb=no --no-header" },
+    { "3.86": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.2": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.4": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.15": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.12": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.14": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.18": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.23": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.24": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.26": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.32": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.38": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.40": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.42": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.46": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.44": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.50": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.54": "pytest -n0 -rA --tb=no --no-header" },
+    { "4.55": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.2": "pytest -n0 -rA --tb=no --no-header" },
+    { "5.4": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.30": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.31": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.36": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.40": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.43": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.53": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.45": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.46": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.47": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.50": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.54": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.59": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.62": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.66": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.71": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.74": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.77": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.81": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.87": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.88": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.93": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.98": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.99": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.100": "pytest -n0 -rA --tb=no --no-header" },
+    { "6.102": "pytest -n0 -rA --tb=no --no-header" }
+  ],
+  "pydantic/pydantic": [
+    {
+      "0.2": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.41": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.4": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.6": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.9": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.10": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.11": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.13": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.14": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.151": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.15": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.17": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.18": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.201": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.20": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.24": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.27": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.29": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.01": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "0.32": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.4": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.31": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.41": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.51": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.5": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.71": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.6": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.7": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.8": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.9": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "1.10": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.0": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.01": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.02": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.03": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.04": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.6": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.5": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.4": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    },
+    {
+      "2.7": "pytest -rA --tb=short -vv -o console_output_style=classic --no-header"
+    }
+  ],
+  "pandas-dev/pandas": [
+    { "0.16": "pytest -rA --tb=long" },
+    { "0.17": "pytest -rA --tb=long" },
+    { "0.18": "pytest -rA --tb=long" },
+    { "0.19": "pytest -rA --tb=long" },
+    { "0.20": "pytest -rA --tb=long" },
+    { "0.21": "pytest -rA --tb=long" },
+    { "0.22": "pytest -rA --tb=long" },
+    { "0.23": "pytest -rA --tb=long" },
+    { "0.24": "pytest -rA --tb=long" },
+    { "0.25": "pytest -rA --tb=long" },
+    { "0.26": "pytest -rA --tb=long" },
+    { "1.0": "pytest -rA --tb=long" },
+    { "1.1": "pytest -rA --tb=long" },
+    { "1.2": "pytest -rA --tb=long" },
+    { "1.3": "pytest -rA --tb=long" },
+    { "1.4": "pytest -rA --tb=long" },
+    { "1.5": "pytest -rA --tb=long" },
+    { "2.0": "pytest -rA --tb=long" },
+    { "2.1": "pytest -rA --tb=long" },
+    { "2.2": "pytest -rA --tb=long" },
+    { "3.0": "pytest -rA --tb=long" }
+  ],
+  "facebookresearch/hydra": [
+    { "0.1": "pytest -rA --tb=long" },
+    { "0.9": "pytest -rA --tb=long" },
+    { "0.10": "pytest -rA --tb=long" },
+    { "0.11": "pytest -rA --tb=long" },
+    { "0.12": "pytest -rA --tb=long" },
+    { "1.0": "pytest -rA --tb=long" },
+    { "1.1": "pytest -rA --tb=long" },
+    { "1.2": "pytest -rA --tb=long" },
+    { "1.3": "pytest -rA --tb=long" },
+    { "1.4": "pytest -rA --tb=long" }
+  ]
+}
