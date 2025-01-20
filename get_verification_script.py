@@ -2,7 +2,7 @@ from datasets import load_dataset
 import subprocess
 import re
 from parser import MAP_REPO_TO_PARSER
-
+import argparse
 dataset = load_dataset("SWE-Gym/SWE-Gym-Lite", split="train")
 NON_TEST_EXTS = [
     ".json",
@@ -94,4 +94,9 @@ def get_verification_script(repo, commit_id):
     print(f"SUCCESS RATE: {(num_passed / (num_passed + num_failed)) * 100}% ({num_passed} passed, {num_failed} failed)")
     return result
 
-get_verification_script("getmoto/moto", "b2300f1eae1323e3e8bc45f97e530ce129dff12e")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--repo", type=str, required=True, help="Repository name (e.g. python/mypy)")
+    parser.add_argument("--commit", type=str, required=True, help="Base commit ID")
+    args = parser.parse_args()
+    get_verification_script(args.repo, args.commit)
